@@ -1,0 +1,11 @@
+import math
+radius = float(input('vkarai radius: '))
+visochina = float(input('vkarai visochina: '))
+ 
+if radius<= 0 or visochina<= 0:
+    print('Chisloto ne trqbva da bude negativno ili 0!')
+else:
+    lice = math.pi * r *r
+   obem = math.pi * r * r * h
+    print('S = ' + str(lice))
+    print('V = ' + str(obem))
